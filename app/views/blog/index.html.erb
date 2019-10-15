@@ -1,0 +1,35 @@
+<%= render "pages/nav" %>
+
+  <main class="projects-content">
+
+    <div class="project-title">
+        <h1>Projects blog<span>.</span></h1>
+    </div>
+
+    <div class="left-side">
+      <% @blog.each do |post| %>
+          <div class="card" id="image">
+            <a href="<%= post.link_url %>" target="_blank" class="image">
+              <img src="<%= post.image_url %>">
+            </a>
+            <div class="text">
+              <div class="info">
+                <p class="date"><%= post.date %></p>
+
+                <div class="hash-tags">
+                <% post.hashes.split(' ').to_a.each do |item| %>
+                  <span><%= item %></span>
+                <% end %> 
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3><%= post.title %></h3>
+              <p><%= post.body_text %></p>
+            </div>
+        </div>
+
+      <% end %>
+
+    </div>
+  </main>

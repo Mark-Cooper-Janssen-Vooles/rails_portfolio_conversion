@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
+ .thank_you_body {
+   margin-left: 40px;
+ }
+
+ .projects-add-form {
+   margin-left: 40px;
+ }

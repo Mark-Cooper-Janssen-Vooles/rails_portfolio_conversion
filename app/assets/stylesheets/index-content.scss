@@ -1,0 +1,51 @@
+/* This page contains styling for the landing page content, the top 100 view height only. */
+
+.index-content {
+  height: calc(100vh - 129px - 80px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 0px 0px;
+
+  // background-image: url("../images/ocean_opt3.jpg");
+  background-image: url(asset_path("ocean_opt3.jpg"));
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-left: auto;
+  margin-right: auto; 
+}
+.index-content h1 {
+  box-sizing: border-box;
+
+  font-size: 26vw;
+  text-align: center;
+
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  color: black;
+  mix-blend-mode: screen;
+}
+
+.index-content h2 {
+  font-size: 60px;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  color: black;
+  mix-blend-mode: screen;
+
+  text-align: center;
+  box-sizing: border-box;
+
+  padding-bottom: 40px;
+}
+
+.justify-right {
+  margin-right: 40px;
+}

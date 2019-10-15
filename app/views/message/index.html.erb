@@ -1,0 +1,33 @@
+<%= render "pages/nav" %>
+
+  <main class="contact-content">
+
+    <div class="left-side">
+      <div>
+        <h1 class="title">Send me a message.</h1>
+        <%= form_with url: "/contact", model: @message do |f| %>
+          <%= f.label :name %> <br>
+          <%= f.text_field :name %> <br>
+
+          <%= f.label :email_address %> <br>
+          <%= f.text_field :email_address %>  <br>
+          
+          <%= f.label :message_body %> <br>
+          <%= f.text_area :message_body %> <br>
+
+          <%= f.submit "Submit"%>
+        <% end %>
+      </div>
+    </div>
+
+    <div class="right-side">
+        <h1>Melbourne,</h1>
+        <h1 class="margin">VIC<span>.</span></h1>
+        <div class="icons">
+          <a href="https://github.com/Mark-Cooper-Janssen-Vooles/" target="_blank"><i class="fab fa-github-square fa-lg"></i></a>
+          <a href="https://www.linkedin.com/in/mark-janssen-vooles-312a77187/" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
+        </div>
+    </div>
+    
+  </main>
+

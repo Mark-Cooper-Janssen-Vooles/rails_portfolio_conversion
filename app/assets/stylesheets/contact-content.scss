@@ -1,0 +1,133 @@
+/* This page contains styling for the contact content, including the form component. */
+
+.contact-content {
+  height: calc(100vh - 129px - 80px);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  padding: 0px 40px;
+
+  /* overflow-y: hidden;
+  overflow-x: hidden;  */
+}
+
+.contact-content .right-side {
+  /* width: 70%; */
+  height: 90%;
+
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.contact-content .right-side h1 {
+  width: 100%;
+  text-align: end;
+  margin-bottom: 30px;
+}
+
+.contact-content .right-side h4 {
+  width: 100%;
+  text-align: end;
+  margin-bottom: 40px;
+}
+.contact-content .right-side h1 {
+  background: var(--blue);
+  color: white;
+}
+.contact-content .right-side h1 span {
+  animation: blink 1s linear infinite;
+}
+@keyframes blink{
+  0%{     color: white;    }
+  49%{    color: transparent; }
+  50%{    color: transparent; }
+  99%{    color:transparent;  }
+  100%{   color: white;    }
+}
+.contact-content .right-side {
+  width: 50%;
+  height: 90%;
+
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-content .right-side .margin {
+  height: 75px;
+}
+.contact-content .right-side .icons {
+  width: 100%;
+  height: 100%;
+  color: var(--blue);
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.contact-content .right-side .icons a {
+  color: grey;
+  margin-left: 5px;
+}
+.contact-content .right-side .icons a:hover {
+  color: var(--blue);
+}
+
+.contact-content form {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.contact-content form label {
+  margin-top: 10px;
+}
+.contact-content form input {
+  width: 100%;
+  height: 40px;
+  font-size: 15px;
+}
+.contact-content form input:focus {
+  background: var(--blue);
+  color: white;
+}
+.contact-content form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.contact-content form textarea:focus {
+  background: var(--blue);
+  color: white;
+}
+.contact-content form .submit-button {
+  width: calc(100% + 5px);
+  height: 40px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+.contact-content form .submit-button:hover {
+  background: var(--blue);
+  color: white;
+  border: none;
+}
+.contact-content .left-side form .title {
+  background: var(--blue);
+  color: white;
+  width: calc(100% + 5px)
+}
+@media only screen and (max-width: 500px) {
+  .contact-content {
+    flex-direction: column;
+    /* align-items: center; */
+    overflow-y: scroll;
+
+  }
+  .right-side {
+    margin-top: 20px;
+    font-size: 10px;
+    justify-content: flex-start;
+  }
+}

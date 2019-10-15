@@ -1,0 +1,23 @@
+/* This page contains styling for the whole document; it imports the nav and footer components, and also the content for each individual page. */
+
+@import "navbar.css";
+@import "footer.css";
+@import "index-content.css";
+@import "about-content.css";
+@import "skills-content.css";
+@import "projects-content.css";
+@import "contact-content.css";
+@import "index-scrollable.css";
+
+:root {
+  --blue: rgb(28, 34, 61);
+}
+
+* {
+  margin: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}

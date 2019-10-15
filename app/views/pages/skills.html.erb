@@ -1,0 +1,82 @@
+<!-- This page is has the components: nav, footer, skills-content (the main content) and each skill (div class) is a card component. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <script src="./js/fontawesome.js"></script>
+  <title>Mark Janssen</title>
+
+  <style>
+    #active {
+      color: var(--blue);
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  
+<!-- put nav -->
+<%= render "nav" %>
+
+  <main class="skills-content">
+
+    <div class="skill">
+      <div class="text">
+        <p class="title"><strong>HTML </strong><i class="fab fa-html5"></i><strong> + CSS </strong><i class="fab fa-css3-alt"></i></p>
+        <p>Using the language of the internet to create responsive interactive elements from scratch.</p>
+      </div>
+      <!-- <img src="img/skills/css_opt.jpg" alt="" class="image-html" width="500px"> -->
+      <div class="image-html">
+        <img src="/assets/skills/css_opt.jpg" alt="photo of laptop">
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="text">
+        <p class="title"><strong>Ruby + Ruby on Rails</strong></p>
+        <p>Using the Ruby programming language, Rails is a full stack web-application framework that includes everything needed to create dynamic web applications.</p>
+      </div>
+      <div class="image-ruby" id="img">
+        <img src="/assets/skills/rails_opt.jpg" alt="Photo of rail tracks. Photo by Sunyu Kim on Unsplash">
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="text">
+          <p class="title"><strong>MERN Stack - MongoDB + Express + React</strong> <i class="fab fa-react"></i><strong> + Node.js </strong><i class="fab fa-node-js"></i></p>
+          <p>MERN combines four applications and uses the Javascript programming language to create dynamic web applications.</p>
+        </div>
+        <div class="image-mern">
+            <img src="/assets/skills/mern_opt.jpg" alt="Photo of programming screen. Photo by Markus Spiske on Unsplash.">
+        </div>
+    </div>
+
+    <div class="skill">
+      <div class="text">
+          <p class="title"><strong>Masters of Architecture</strong></p>
+          <p>Completed a Masters of Architecture from the University of Western Australia in 2014. <a href="https://www.dropbox.com/s/szcvkl5j1un46cr/Mark_Cooper_Janssen_Portfolio.pdf?dl=0" target="_blank">View my portfolio here</a>.</p>
+        </div>
+        <div class="image-architecture">
+            <img src="/assets/skills/architecture_opt.jpg" alt="Photo of building. Photo by Daniel von Appen on Unsplash.">
+        </div>
+    </div>
+
+    <div class="skill">
+      <div class="text">
+          <p class="title"><strong>Previous Work Experience</strong></p>
+          <p>Most recent employment includes running and maintaining xero, vend and shopify for a health food store. Prior to this I was a graduate architect. <a href="https://www.dropbox.com/s/jrwq3tg0fkg45h5/Mark_Cooper_Janssen_Resume.pdf?dl=0" target="_blank">View my resume here</a>.</p>
+        </div>
+        <div class="image-workexp">
+            <img src="/assets/skills/workexp_opt.jpg" alt="Photo of pen and paper. Photo by Daniel von Appen on Unsplash.">
+        </div>
+    </div>
+
+  </main>
+
+</body>
+</html>

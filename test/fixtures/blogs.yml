@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  image_url: MyText
+  date: 2019-10-14
+  hashes: MyText
+  title: MyString
+  body_text: MyText
+
+two:
+  image_url: MyText
+  date: 2019-10-14
+  hashes: MyText
+  title: MyString
+  body_text: MyText

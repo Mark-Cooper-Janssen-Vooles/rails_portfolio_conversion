@@ -1,0 +1,195 @@
+/* This css page contains styling for the parrallax effect on the home page under the first 100% view height. */
+
+.index-scrollable {
+  display: flex;
+  flex-direction: column;
+}
+
+/* PART 1 */
+.index-scrollable .part-1 {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.index-scrollable .part-1 .perth-img{
+  height: 80%;
+  width: 100%;
+
+  background-image: url(asset_path("index-scrollable/perth_opt.jpg"));
+  /* Photo by Annie Spratt on Unsplash */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-left: auto;
+  margin-right: auto; 
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.index-scrollable .part-1 .perth-img h1{
+  margin-top: 25%;
+  color: white;
+}
+.index-scrollable .part-1 .box{
+  height: 20%;
+  width: 100%;
+  background: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.index-scrollable .part-1 .box h1{
+  color: var(--blue);
+}
+
+/* PART 2 */
+.index-scrollable .part-2 {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.index-scrollable .part-2 .melbourne-img{
+  height: 80%;
+  width: 100%;
+
+  background-image: url(asset_path("index-scrollable/melbourne_opt.jpg"));
+  // background-image: url(asset_path("index-scrollable/perth_opt.jpg"));
+  /* Photo by Annie Spratt on Unsplash */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-left: auto;
+  margin-right: auto; 
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.index-scrollable .part-2 .melbourne-img h1{
+  margin-top: 25%;
+  color: white;
+}
+.index-scrollable .part-2 .box{
+  height: 20%;
+  width: 100%;
+  background: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.index-scrollable .part-2 .box-from{
+  height: 20%;
+  width: 100%;
+  
+  background: var(--blue);
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.index-scrollable .part-2 .box h1{
+  color: var(--blue);
+}
+
+/* PART 3 */
+.index-scrollable .part-3 {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.index-scrollable .part-3 .architecture-img{
+  height: 80%;
+  width: 100%;
+
+  background-image: url(asset_path("index-scrollable/architecture_opt.jpg"));
+  /* Photo by Tu Tram Pham on Unsplash */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-left: auto;
+  margin-right: auto; 
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.index-scrollable .part-3 .architecture-img h1{
+  margin-top: 25%;
+  color: white;
+}
+.index-scrollable .part-3 .box{
+  height: 20%;
+  width: 100%;
+  background: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.index-scrollable .part-3 .box h1{
+  color: var(--blue);
+}
+
+/* PART 4 */
+.index-scrollable .part-4 {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.index-scrollable .part-4 .programming-img{
+  height: 80%;
+  width: 100%;
+
+  background-image: url(asset_path("index-scrollable/programming_opt.jpg"));
+  // background-image: url(asset_path("index-scrollable/perth_opt.jpg"));
+  /* Photo by Fabian Grohs on Unsplash */
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-left: auto;
+  margin-right: auto; 
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.index-scrollable .part-4 .programming-img h1{
+  margin-top: 25%;
+  color: white;
+}
+.index-scrollable .part-4 .box{
+  height: 20%;
+  width: 100%;
+  background: white;
+}
+.index-scrollable .part-4 .box h1{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 40px;
+  box-sizing: border-box;
+}
+.index-scrollable .part-4 .box h1 a {
+  color: var(--blue);
+}

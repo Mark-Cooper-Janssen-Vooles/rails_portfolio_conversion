@@ -1,0 +1,9 @@
+<%= render "pages/nav" %>
+
+<div class="thank_you_body">
+  <h1>Thanks <%= @message.name%>!</h1>
+
+  <p>Your email and message was:</p>
+  <%= @message.email_address %><br>
+  <%= @message.message_body %>
+</div>

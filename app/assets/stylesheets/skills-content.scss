@@ -1,0 +1,199 @@
+/* This page contains styling for the skills main content area.  */
+
+.skills-content {
+  height: calc(100vh - 129px - 80px);
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+  padding: 0px 40px;
+}
+.skills-content .skill {
+  width: 100%;
+  height: 20%;
+
+  margin-bottom: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  overflow: hidden;
+}
+.skills-content .skill .text {
+  width: 49%;
+  min-width: 450px;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.skills-content .skill .text .title {
+  background: var(--blue);
+  color: white;
+}
+.skills-content .skill .text a {
+  text-decoration: none;
+  color: grey;
+}
+
+
+.skills-content .skill .text a:hover {
+  text-decoration: none;
+  color: var(--blue); 
+}
+
+/* SKILL: HTML CSS  */
+.skills-content .skill .image-html {
+  border-top: 10px solid var(--blue);
+  width: 49%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+}
+.skills-content .skill .image-html img {
+  transition: transform .5s, filter 0.5s ease-in-out;
+  filter: grayscale(50%);
+}
+.skills-content .skill .image-html img:hover {
+  transform: scale(1.1);
+  filter: grayscale(0);
+}
+/* SKILL: RUBY */
+.skills-content .skill .image-ruby {
+  border-top: 10px solid var(--blue);
+  width: 49%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+}
+.skills-content .skill .image-ruby img {
+  transition: transform .5s, filter 0.5s ease-in-out;
+  filter: grayscale(50%);
+}
+.skills-content .skill .image-ruby img:hover {
+  transform: scale(1.1);
+  filter: grayscale(0);
+}
+/* SKILL: MERN */
+.skills-content .skill .image-mern {
+  border-top: 10px solid var(--blue);
+  width: 49%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+}
+.skills-content .skill .image-mern img {
+  transition: transform .5s, filter 0.5s ease-in-out;
+  filter: grayscale(50%);
+}
+.skills-content .skill .image-mern img:hover {
+  transform: scale(1.1);
+  filter: grayscale(0);
+}
+/* SKILL: ARCHITECTURE */
+.skills-content .skill .image-architecture {
+  border-top: 10px solid var(--blue);
+  width: 49%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+}
+.skills-content .skill .image-architecture img {
+  transition: transform .5s, filter 0.5s ease-in-out;
+  filter: grayscale(50%);
+}
+.skills-content .skill .image-architecture img:hover {
+  transform: scale(1.1);
+  filter: grayscale(0);
+}
+/* SKILL: WORKEXP */
+.skills-content .skill .image-workexp {
+  border-top: 10px solid var(--blue);
+  width: 49%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+}
+.skills-content .skill .image-workexp img {
+  transition: transform .5s, filter 0.5s ease-in-out;
+  filter: grayscale(50%);
+}
+.skills-content .skill .image-workexp img:hover {
+  transform: scale(1.1);
+  filter: grayscale(0);
+}
+
+@media only screen and (max-width: 500px) {
+  .skills-content {
+    overflow-y: scroll;
+    /* height: auto; */
+    display: block;
+    padding: 0px 20px;
+  }
+  .skills-content .skill {
+    /* height: auto; */
+    height: auto;
+    min-width: none;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    overflow: visible;
+  }
+  .skills-content .skill .text {
+    min-width: 100%;
+    height: auto;
+    margin-bottom: 0px;
+  }
+
+  .skills-content .skill .image-html {
+    width: 100%;
+    height: 60px;
+    border-top: none;
+  }
+  .skills-content .skill .image-ruby {
+    width: 100%;
+    height: 60px; 
+    border-top: none;   
+  }
+  .skills-content .skill .image-mern {
+    width: 100%;
+    height: 60px; 
+    border-top: none;
+  }
+  .skills-content .skill .image-architecture {
+    width: 100%;
+    height: 60px;  
+    border-top: none;
+  }
+  .skills-content .skill .image-workexp {
+    width: 100%;
+    height: 60px; 
+    border-top: none;
+  }
+
+}
